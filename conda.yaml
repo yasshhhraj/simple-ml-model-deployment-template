@@ -1,0 +1,10 @@
+name: sklearn-env
+dependencies:
+  - python=3.13.9
+  - pip
+  - pip:
+      - scikit-learn
+      - pandas
+      - numpy
+      - joblib
+      
