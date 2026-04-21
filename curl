@@ -1,0 +1,6 @@
+curl --location '51.21.161.20/predict' \
+--header 'Content-Type: application/json' \
+--data '{
+    "age": 45,
+    "annual_salary": 60000
+}'
